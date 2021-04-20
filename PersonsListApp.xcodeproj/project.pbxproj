@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FA2DB93B262F12F200F085BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB93A262F12F200F085BC /* AppDelegate.swift */; };
 		FA2DB93D262F12F200F085BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB93C262F12F200F085BC /* SceneDelegate.swift */; };
-		FA2DB93F262F12F200F085BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB93E262F12F200F085BC /* ViewController.swift */; };
 		FA2DB942262F12F200F085BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2DB940262F12F200F085BC /* Main.storyboard */; };
 		FA2DB944262F12F300F085BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2DB943262F12F300F085BC /* Assets.xcassets */; };
 		FA2DB947262F12F300F085BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2DB945262F12F300F085BC /* LaunchScreen.storyboard */; };
+		FA2DB953262F357800F085BC /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB952262F357800F085BC /* PersonListTableViewController.swift */; };
+		FA2DB95A262F3FFE00F085BC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB959262F3FFE00F085BC /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA2DB937262F12F200F085BC /* PersonsListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2DB93A262F12F200F085BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2DB93C262F12F200F085BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA2DB93E262F12F200F085BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA2DB941262F12F200F085BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA2DB943262F12F300F085BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2DB946262F12F300F085BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2DB948262F12F300F085BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2DB952262F357800F085BC /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
+		FA2DB959262F3FFE00F085BC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				FA2DB93A262F12F200F085BC /* AppDelegate.swift */,
 				FA2DB93C262F12F200F085BC /* SceneDelegate.swift */,
-				FA2DB93E262F12F200F085BC /* ViewController.swift */,
 				FA2DB940262F12F200F085BC /* Main.storyboard */,
+				FA2DB952262F357800F085BC /* PersonListTableViewController.swift */,
+				FA2DB959262F3FFE00F085BC /* Person.swift */,
 				FA2DB943262F12F300F085BC /* Assets.xcassets */,
 				FA2DB945262F12F300F085BC /* LaunchScreen.storyboard */,
 				FA2DB948262F12F300F085BC /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2DB93F262F12F200F085BC /* ViewController.swift in Sources */,
 				FA2DB93B262F12F200F085BC /* AppDelegate.swift in Sources */,
 				FA2DB93D262F12F200F085BC /* SceneDelegate.swift in Sources */,
+				FA2DB95A262F3FFE00F085BC /* Person.swift in Sources */,
+				FA2DB953262F357800F085BC /* PersonListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
