@@ -14,6 +14,7 @@
 		FA2DB947262F12F300F085BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2DB945262F12F300F085BC /* LaunchScreen.storyboard */; };
 		FA2DB953262F357800F085BC /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB952262F357800F085BC /* PersonListTableViewController.swift */; };
 		FA2DB95A262F3FFE00F085BC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DB959262F3FFE00F085BC /* Person.swift */; };
+		FA86EFB626305238005BE0A7 /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA86EFB526305238005BE0A7 /* DetailInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA2DB948262F12F300F085BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2DB952262F357800F085BC /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
 		FA2DB959262F3FFE00F085BC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FA86EFB526305238005BE0A7 /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FA2DB93A262F12F200F085BC /* AppDelegate.swift */,
 				FA2DB93C262F12F200F085BC /* SceneDelegate.swift */,
 				FA2DB940262F12F200F085BC /* Main.storyboard */,
+				FA86EFB526305238005BE0A7 /* DetailInfoViewController.swift */,
 				FA2DB952262F357800F085BC /* PersonListTableViewController.swift */,
 				FA2DB959262F3FFE00F085BC /* Person.swift */,
 				FA2DB943262F12F300F085BC /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				FA2DB93D262F12F200F085BC /* SceneDelegate.swift in Sources */,
 				FA2DB95A262F3FFE00F085BC /* Person.swift in Sources */,
 				FA2DB953262F357800F085BC /* PersonListTableViewController.swift in Sources */,
+				FA86EFB626305238005BE0A7 /* DetailInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
