@@ -9,25 +9,14 @@ import UIKit
 
 class PersonListTableViewController: UITableViewController {
 
-   private var persons = Person.getPersons()
+    var persons: [Person] = []
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-    }
-
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        return
-//    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-         persons.count
+        return persons.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "fullName", for: indexPath)
         let person = persons[indexPath.row]
@@ -38,9 +27,6 @@ class PersonListTableViewController: UITableViewController {
         return cell
     }
     
-
-    
-    
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -49,6 +35,4 @@ class PersonListTableViewController: UITableViewController {
         let person = persons[indexPath.row]
         detailInfoVC.person = person
     }
-    
-
 }
